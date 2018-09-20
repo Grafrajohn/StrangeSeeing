@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+	{% include nav.html %}
+	<main style="margin-top:80px;">
+		<article>
+			{{ content }}
+		</article>
+		{% include footer.html %}
+	</main>
+</body>
+	<!-- Bootstrap core JavaScript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>	
+	{% if page.masonry %}
+	<script src="js/masonry.pkgd.min.js"></script>	
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<SCRIPT>
+		var grid = document.querySelector('.grid');
+		var msnry;
+		
+		imagesLoaded( grid, function() {
+		  // init Isotope after all images have loaded
+		  msnry = new Masonry( grid, {
+			itemSelector: '.grid-item',
+			columnWidth: '.grid-sizer',
+			percentPosition: true
+		  });
+		});
+	</SCRIPT>	
+	{%endif%}	
+</html>
