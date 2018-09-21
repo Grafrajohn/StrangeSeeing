@@ -1,5 +1,4 @@
 body {
- background-image: url("https://res.cloudinary.com/dtn9ari2r/image/upload/v1534337032/backgrounds/tantweed.gif");
  margin-top: 85px;
  font-size: 1.2em;
 }
@@ -20,7 +19,7 @@ h6 {font-size: 1.4em;}
 }
 
 nav {
- background-image: url("https://res.cloudinary.com/dtn9ari2r/image/upload/v1534340105/backgrounds/5022.png");
+ /*background-image: url("https://res.cloudinary.com/dtn9ari2r/image/upload/v1534340105/backgrounds/5022.png");*/
 }
 
 @font-face { 
