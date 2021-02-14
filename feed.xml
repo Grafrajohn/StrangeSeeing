@@ -3,7 +3,7 @@
     <title>StrangeSeeings - A Rational Look at UFOs and Aliens</title>
     <link href="https://grafrajohn.github.io/StrangeSeeing/feed.xml" rel="self" />
     <link href="https://grafrajohn.github.io/StrangeSeeing" />
-    <updated>2021-02-14T14:08:37+00:00</updated>
+    <updated>2021-02-14T19:57:27+00:00</updated>
     <author>
         <name>Graham</name>
     </author>
@@ -16,8 +16,9 @@
         </author>
         <link href="https://grafrajohn.github.io/StrangeSeeing/blog.html"/>
         <id>https://grafrajohn.github.io/StrangeSeeing/blog.html</id>
+            <category term="blog"/>
 
-        <updated>2021-02-14T13:51:27+00:00</updated>
+        <updated>2021-02-14T19:57:27+00:00</updated>
             <summary>
                 <![CDATA[
                      
