@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://grafrajohn.github.io/StrangeSeeing/sitemap.xml
